@@ -1,4 +1,6 @@
 
+alert("Welcome! Enter your name in the box below for a personalized greeting!");
+
 function searchName(event) {
   event.preventDefault();
   let searchElement = document.querySelector(".search-input");

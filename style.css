@@ -19,6 +19,12 @@ body {
   justify-content: center;
 }
 
+.submit-button {
+  background-color: rgba(52, 51, 51, 0.963);
+}
+
+
+
 .current-text {
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #e8bbef;
