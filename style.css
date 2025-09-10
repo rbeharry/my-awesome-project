@@ -20,10 +20,23 @@ body {
 }
 
 .submit-button {
-  background-color: rgba(52, 51, 51, 0.963);
+  background-color: black;
   color: white;
   border-radius: 10px;
+  height: 40px;
 }
+
+.search-input {
+color: white;
+background-color: black;
+height: 40px;
+border-radius: 10px;
+
+}
+
+
+
+
 
 
 
