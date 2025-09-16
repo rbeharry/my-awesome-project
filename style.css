@@ -88,3 +88,9 @@ img {
     .grid img:hover{
          transform: scale(1.25);
     }
+
+
+    footer a {
+      color: purple;
+    }  
+    
