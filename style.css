@@ -39,6 +39,9 @@ a:link {
   color:smokescreen;
 }
 
+ a:visited {
+    color: #e8bbef; /* Sets visited links to purple */
+    }
 
 
 .current-text {
