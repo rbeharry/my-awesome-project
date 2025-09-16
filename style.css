@@ -35,12 +35,12 @@ border-radius: 10px;
 }
 
 
-a:link {
+a :link {
   color:smokescreen;
 }
 
- a:visited {
-    color: #e8bbef; /* Sets visited links to purple */
+ a :visited {
+    color: #e8bbef;
     }
 
 
