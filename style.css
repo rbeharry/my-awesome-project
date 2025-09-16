@@ -93,3 +93,6 @@ img {
     .footer a {
         color: purple;
     }
+    .footer a:hover{
+      color: purple;
+    }
