@@ -35,13 +35,13 @@ border-radius: 10px;
 }
 
 
-a :link {
-  color:smokescreen;
+a:link {
+  color: #e8bbef;
 }
 
- a :visited {
-    color: #e8bbef;
-    }
+a:visited {
+  color: #e8bbef;
+}
 
 
 .current-text {
