@@ -96,3 +96,7 @@ img {
     .footer a:hover{
       color: purple;
     }
+
+    .bi-alarm {
+        color: cornflowerblue;
+    }
