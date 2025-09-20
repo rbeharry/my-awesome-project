@@ -42,20 +42,26 @@ a:link {
 a:visited {
   color:whitesmoke;
 }
-
 .graphic-design-button {
-
     background-color:  #e8bbef;
-  text: black;
-  font-size: 20px;
-  radius: 10px;
+    color: black;
   height: 60px;
  width: 200px;
   border-radius: 10px;
-  margin-top: 20px;
   display:block;
   margin: 0 auto;
 }
+
+.graphic-design-button a{ 
+text-decoration: none;
+  background-color:  #e8bbef;
+  color: black;
+  font-size: 20px;
+
+}
+
+
+
 
 .current-text {
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -81,7 +87,7 @@ img {
    border-style: solid;
    border-width: 10px;
    box-shadow:rgba(216, 210, 210, 0.963) 0px 5px 15px;
-
+}
 
  
 
