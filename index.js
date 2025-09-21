@@ -6,7 +6,7 @@ function searchName(event) {
   let searchElement = document.querySelector(".search-input");
 
   let newElement = document.querySelector(".current-text-title");
- newElement.innerHTML = "Hello " + searchElement.value + ""+ ", welcome to my awesome webpage!";
+ newElement.innerHTML = "Hello " + searchElement.value + ""+ ", welcome to my site!";
 }
 let newHeader = document.querySelector("form");
 newHeader.addEventListener("submit", searchName);
