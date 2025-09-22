@@ -78,7 +78,7 @@ display: grid;
   border-radius: 10px;
  border-width: 20px;
 }
-img {
+ img {
     max-width: 200px;
     border-radius: 10px;
    display: block;
@@ -89,10 +89,12 @@ img {
    box-shadow:rgba(216, 210, 210, 0.963) 0px 5px 15px;
 }
 
-.roxane img {
+.roxane {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 20px;
   display: block;
+  border-color: none;
+  border-style: none;
 }
 
 
