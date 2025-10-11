@@ -153,4 +153,17 @@ align: right;
      .container {
       display: flex;
       width: 100%; /
+     }
+@media (max-width: 768px) {
+  .typewriter-container {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    width: 90%; /* Adjust container width */
+  }
+}
 
+@media (min-width: 769px) {
+  .typewriter-container {
+    font-size: 24px; /* Larger font size for bigger screens */
+    width: 60%; /* Adjust container width */
+  }
+}
