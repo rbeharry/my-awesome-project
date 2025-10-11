@@ -171,17 +171,7 @@ align: center;
 }
 
 
-.flex-container {
-  width: 100%;
-  max-width: 800px;
-  /* Optionally set a min-width */
-}
 
-@media only screen and (max-width: 600px) {
-  .flex-container {
-    max-width: 500px;
-  }
-}
 
 
 
