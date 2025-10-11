@@ -10,3 +10,9 @@ function searchName(event) {
 }
 let newHeader = document.querySelector("form");
 newHeader.addEventListener("submit", searchName);
+
+
+
+// Example usage:
+// const myElement = document.getElementById('myDiv');
+// fadeOut(myElement);
