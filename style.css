@@ -154,12 +154,20 @@ align: center;
     margin: 0 auto;
   }
 
+.typewriter {
+  color: white;
+  font-size: 40px;
+  margin-right: 40px;
+  margin-top: 0px;
+  text-align: left;
+  margin-left: 20px;
+  max-width: 100%;
+} 
 
-
-
-  @media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
+.Typewriter__cursor {
+  display: none;
 }
+
+
+
 
