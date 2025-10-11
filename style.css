@@ -6,7 +6,20 @@ body {
   font-size: 20px;
 }
  
+.front-page {
+  background: black;
+  
+}
 
+h1 {
+  color: white;
+  font-size: 100px;
+  margin-right: 20px;
+  margin-top: 0px;
+  text-align: left;
+  margin-left: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
   
 
 .current-text-title {
@@ -92,13 +105,20 @@ display: grid;
 }
 
 .roxane {
-  width: 100%;
   border-radius: 20px;
-  display: block;
+align: right;
   border-color: none;
   border-style: none;
 }
 
+.new-front-page {
+ color: white;
+  font-size: 40px;
+  margin-right: 40px;
+  margin-top: 0px;
+  text-align: left;
+  margin-left: 20px;
+}
 
 
     .grid {
@@ -129,3 +149,7 @@ display: grid;
   text-decoration: none;
   transform: scale(1.05, 1.05);
     }
+
+     .container {
+      display: flex;
+      width: 100%; /
