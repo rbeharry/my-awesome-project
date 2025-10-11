@@ -30,12 +30,21 @@ h1 {
   
 }
 
-.container {
+
+ .container {
   display: flex;
-  justify-content: center;
- 
-  
+  flex-wrap: wrap; /* Allows items to wrap to the next line on smaller screens */
+  justify-content: space-between; /* Adjusts spacing between items */
+  gap: 16px; /* Adds spacing between items */
 }
+
+.container > div {
+  flex: 1 1 200px; /* Flexible items with a minimum width of 200px */
+  max-width: 300px; /* Optional: Limit the maximum width */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+  
+
 
 .submit-button {
   background-color:  rgba(52, 51, 51, 0.963);
