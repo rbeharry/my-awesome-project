@@ -19,6 +19,7 @@ h1 {
   text-align: left;
   margin-left: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+max-width: 100%;
 }
   
 
@@ -109,6 +110,7 @@ display: grid;
 align: right;
   border-color: none;
   border-style: none;
+  max-width: 100%;
 }
 
 .new-front-page {
@@ -118,6 +120,7 @@ align: right;
   margin-top: 0px;
   text-align: left;
   margin-left: 20px;
+  max-width: 100%;
 }
 
 
