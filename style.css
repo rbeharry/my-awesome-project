@@ -168,6 +168,10 @@ align: center;
   display: none;
 }
 
+.flex-container {
+  width: 100%;
+
+}
 
 
 
