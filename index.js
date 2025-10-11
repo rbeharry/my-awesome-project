@@ -11,7 +11,10 @@ function searchName(event) {
 let newHeader = document.querySelector("form");
 newHeader.addEventListener("submit", searchName);
 
-
+new Typewriter("#typewriter", {
+  strings: "Front-end developer + communications specialist",
+  autoStart: true,
+});
 
 // Example usage:
 // const myElement = document.getElementById('myDiv');
