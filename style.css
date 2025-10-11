@@ -154,8 +154,12 @@ align: center;
     margin: 0 auto;
   }
 
+
+
+
   @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
   }
 }
+
