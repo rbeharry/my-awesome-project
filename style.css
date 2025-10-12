@@ -170,7 +170,7 @@ align: center;
   display: none;
 }
 
- .flex-container {
+ .container-display:flex {
       display: flex; /* Arrange children in a row */
       flex-wrap: wrap; /* Allow columns to wrap to the next line if needed */
     }
@@ -182,7 +182,7 @@ align: center;
     }
 
     @media (max-width: 768px) { /* Example breakpoint for smaller screens */
-      .flex-container {
+      .container-display:flex {
         flex-direction: column; /* Stack columns vertically */
       }
       .text-content {
