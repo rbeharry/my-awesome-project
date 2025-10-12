@@ -170,26 +170,17 @@ align: center;
   display: none;
 }
 
- .container-display:flex {
-      display: flex; /* Arrange children in a row */
-      flex-wrap: wrap; /* Allow columns to wrap to the next line if needed */
-    }
+.flex-container {
+display: flex;
+flex-direction: row;
+}
 
-    .text-content {
-      flex: 1; /* Each column takes equal available space */
-      padding: 1rem;
-      /* Add other styling like background-color, border, etc. */
-    }
-
-    @media (max-width: 500px) { /* Example breakpoint for smaller screens */
-      .container-display:flex {
-        flex-direction: column; /* Stack columns vertically */
-      }
-      .text-content {
-        width: 100%; /* Ensure columns take full width when stacked */
-      }
-    }
-
+/* Responsive layout - makes a one-column layout instead of a two-column layout */
+@media (max-width: 800px) {
+.flex-container {
+flex-direction: column;
+}
+}
 
 
 
