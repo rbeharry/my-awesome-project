@@ -181,7 +181,7 @@ align: center;
       /* Add other styling like background-color, border, etc. */
     }
 
-    @media (max-width: 768px) { /* Example breakpoint for smaller screens */
+    @media (max-width: 500px) { /* Example breakpoint for smaller screens */
       .container-display:flex {
         flex-direction: column; /* Stack columns vertically */
       }
