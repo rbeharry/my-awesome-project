@@ -170,7 +170,7 @@ display: grid;
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   body {
     font-size: 14px;
   }
