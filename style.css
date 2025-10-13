@@ -180,5 +180,10 @@ display: grid;
   }
 }
 
+.flex-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 10px;
+}
 
 
