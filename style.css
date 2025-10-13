@@ -170,15 +170,6 @@ display: grid;
 
 
 
-@media (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-
-  .flex-container {
-    padding: 10px;
-  }
-}
 
 .flex-container {
   display: grid;
