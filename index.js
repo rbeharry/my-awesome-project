@@ -5,6 +5,9 @@ new Typewriter("#typewriter", {
  
 });
 
+typewriterConfig = ["Let me tell you something funny", ]
+  typewriter();
+
 
 // Example usage:
 // const myElement = document.getElementById('myDiv');
