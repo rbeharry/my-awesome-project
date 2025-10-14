@@ -119,7 +119,7 @@ display: grid;
     .grid {
         margin: 15px 0;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
         grid-gap: 10px;
         justify-items: center;
     }
