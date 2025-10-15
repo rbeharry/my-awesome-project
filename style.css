@@ -160,20 +160,7 @@ display: grid;
   }
 
 
-     #typewriter {
-   font-size: 40px;
-  margin-right: 40px;
-  margin-top: 0px;
-  text-align: left;
-  margin-left: 20px;
-  max-width: 100%;
-  color: white;
-    }
-    
-
-.Typewriter__cursor {
-  display: none;
-}
+   
 
 
 
