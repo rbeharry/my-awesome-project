@@ -244,3 +244,72 @@ display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.my-projects {
+  text-align: center;
+  padding: 2rem 1rem;
+ 
+}
+
+.my-projects h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color:  #e8bbef;
+}
+
+/* The Grid Layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-item {
+  background: #e8bbef;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.grid-item:hover {
+  transform: scale(1.03);
+}
+
+.project {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Adjust text styles */
+.grid-item h3 {
+  margin-top: 0.8rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* ✅ Responsive tweaks */
+@media (max-width: 768px) {
+  .my-projects h2 {
+    font-size: 1.6rem;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-item {
+    padding: 0.8rem;
+  }
+}
