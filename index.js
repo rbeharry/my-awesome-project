@@ -1,9 +1,4 @@
 
-new Typewriter("#typewriter", {
-  strings: "Front-end developer + communications specialist",
-  autoStart: true,
- 
-});
 
 
 
