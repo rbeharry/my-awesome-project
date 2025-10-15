@@ -177,7 +177,7 @@ display: grid;
 
 .flex-container {
   display: flex;
-  grid-template-rows: repeat(auto-fit, minmax(200px, 2fr)); /* Responsive grid */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
   gap: 10px;
 }
 
