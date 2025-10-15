@@ -97,6 +97,7 @@ display: grid;
 
 }
 
+
 .roxane {
   border-radius: 20px;
 
@@ -194,6 +195,27 @@ display: grid;
         border-radius: 8px;
         object-fit: cover;
     }
+
     .grid img:hover{
-         transform: scale(2);
+         transform: scale(1.5);
     }
+
+   .projects {
+  border-radius: 15px;
+  width: 300px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Optional: Add a gap between grid items */
+  gap: 20px; 
+}
+
+.grid-item {
+  background-color: #e8bbef;
+  padding: 20px;
+  text-align: center;
+  color: purple;
+  border-radius: 10px;
+}
