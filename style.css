@@ -139,9 +139,9 @@ display: grid;
 
   
   
-    
-  
-
+    .footer{
+      color: purple;
+    }
 
     .footer a {
         color: purple;
@@ -206,10 +206,10 @@ display: grid;
 }
 
 .grid-item {
-  background-color: #FAED38
+  background-color: #FAED38;
   padding: 20px;
   text-align: center;
-  color: purple;
+
   border-radius: 10px;
 }
 
@@ -264,6 +264,7 @@ display: grid;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   transition: transform 0.2s ease;
+  color: purple;
 }
 
 .grid-item:hover {
